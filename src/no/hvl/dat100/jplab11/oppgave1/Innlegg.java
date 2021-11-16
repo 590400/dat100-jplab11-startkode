@@ -74,12 +74,12 @@ public abstract class Innlegg {
 	@Override
 	public String toString() {
 		
-		String tmp = null;
+		String tmp = "";
 		
-	tmp+= (id + "/n");
-	tmp+= (bruker + "/n");
-	tmp+= (dato + "/n");
-	tmp+= (likes + "/n");
+	tmp+= (id + "\n");
+	tmp+= (bruker + "\n");
+	tmp+= (dato + "\n");
+	tmp+= (likes + "\n");
 	
 	return tmp;
 		
